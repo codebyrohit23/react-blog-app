@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+.blog-card-container{
+  overflow: hidden;
+}
+.blog-card{
+  height:100px;
+  overflow-y:auto;
+}
+.sticky-top-alert{
+  position: sticky;
+  top:70px;
+}
+body{
+  background-color: #000000ed;
+}
+.blog-image{
+  width:68%;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+.signin-image{
+  align-items: center;
+  max-width:90%;
+  max-height:400px;
+}
+.btn-submit{
+  text-transform: uppercase;
+  font-weight:600;
+  cursor:pointer;
+}
+.footer{
+  width:100%;
+  position: fixed;
+  bottom:0px;
+}
+body{
+  margin-bottom:70px;
+}
+p{
+  margin-bottom:0px;
+}
